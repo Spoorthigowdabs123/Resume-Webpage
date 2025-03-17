@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Reospec.otf",tahoma;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Mars Bold";
+    src: url("Mars\ Bold.otf");
+}
+@font-face {
+    font-family: "Reospec";
+    src: url(Reospec.otf);
+}
+@font-face {
+    font-family: "neouda";
+    src: url("neoda.ttf");
+}
+body{
+    background: url("image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-header{
+    background-color: beige;
+}
+nav{
+    background-color: aliceblue;
+    height: 50px;
+    width: 100%;
+    h1{
+        font-size: 30px;
+        color: aquamarine;
+        font-family: "neouda";
+        text-align: left;
+    }
+    span{
+        font-family: "neouda";
+        color: aqua;
+        font-size: 30px;
+        text-align: left;
+    } 
+}
+nav ul{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.3rem;
+    flex-direction: column;
+    gap: 10px;
+    li{
+        list-style-type: none;
+    }
+}
+nav a{
+    text-decoration: none;
+}
